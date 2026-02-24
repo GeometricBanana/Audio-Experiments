@@ -283,7 +283,7 @@ namespace Audio.Tools
 
             Vis.QuadOutline(centre, size, outlineThick, outlineCol);
 
-            Vis.Text(fontType, "LMB to paint | Esc to clear | Tab to switch paint mode | Space to play | S to save to file", fontSize, Vector2.up * 5, Anchor.Centre, Color.gray3);
+            Vis.Text(fontType, "LMB to paint | Esc to clear | Tab to switch paint mode | Space to play | S to save to file", fontSize, Vector2.up * 5, Anchor.Centre, Color.gray);
 
             labelSpacingTarget = Mathf.Max(0.25f, labelSpacingTarget);
             // X labels
